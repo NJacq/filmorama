@@ -124,7 +124,7 @@ body{
 }
 .header-people{
     display: flex;
-
+    flex-direction: row;
 
 }
 .margin-left{
