@@ -1,4 +1,4 @@
-RewriteEngine On   
+RewriteEngine On  
 RewriteRule ^homepage$ index.php [L,QSA]
 RewriteRule ^(film/)([0-9]+)$  index.php?action=$1&id=$2 [L,QSA]
 RewriteRule ^(genre/)([0-9]+)$ index.php?action=$1&id=$2 [L,QSA]
